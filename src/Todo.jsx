@@ -26,12 +26,14 @@ const Todo = () => {
         <div>
             <h2>Nuestras tareas</h2>
             <h3>Ingrese sus tareas aquí 👇</h3>
+            <fieldset>
             <form onSubmit={handleSubmit}>
                 <input type="text" 
                 placeholder="Ingrese tarea aquí" 
                 onChange={(e) => setTodo (e.target.value)}></input>
                 <button type="submit">➕</button>
             </form>
+            </fieldset>
             {
                 todos.map((todo) =>
                 <div>

@@ -1,5 +1,6 @@
 import './App.css';
 import Todo from './Todo';
+import Timer from './Timer'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header className="App-header">
         <h1>Creamos un To do list & Timer</h1>
         <Todo/>
+        <Timer/>
       </header>
     </div>
   );
